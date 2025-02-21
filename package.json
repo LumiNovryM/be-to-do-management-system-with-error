@@ -1,11 +1,14 @@
 {
   "name": "be-to-do-management-system",
   "version": "0.0.0",
-  "private": true,
   "type": "commonjs",
+  "main": "app.js",
+  "engines": {
+    "node": "16.x"
+  },
   "scripts": {
     "dev": "nodemon -w ./*.js ./*.js",
-    "start": "node ./bin/www",
+    "start": "node app.js",
     "prepare": "husky"
   },
   "dependencies": {
